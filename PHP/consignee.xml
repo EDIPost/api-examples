@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<consignee>
+
+	<companyName>Ola og Sønn AS</companyName>
+
+	<postAddress>
+		<address>Postboks 123</address>
+		<zipCode>1337</zipCode>
+		<city>Sandvika</city>
+	</postAddress>
+
+	<streetAddress>
+		<address>Strandgaten 1</address>
+		<zipCode>1337</zipCode>
+		<city>Sandvika</city>
+	</streetAddress>
+
+	<country>NO</country>
+
+	<contact>
+		<name>Ola Normann</name>
+		<email>ola.normann@gmail.no</email>
+		<telephone>61112345</telephone>
+		<cellphone>98765432</cellphone>
+		<telefax></telefax>
+	</contact>
+
+</consignee>
