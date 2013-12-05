@@ -5,12 +5,14 @@
 
 	<postAddress>
 		<address>Postboks 123</address>
+		<address2></address2>
 		<zipCode>1337</zipCode>
 		<city>Sandvika</city>
 	</postAddress>
 
 	<streetAddress>
 		<address>Strandgaten 1</address>
+		<address2></address2>
 		<zipCode>1337</zipCode>
 		<city>Sandvika</city>
 	</streetAddress>

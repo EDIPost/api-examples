@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<consignment>
+  <!--
+    Get the consignor ID from get-default-consignor.php.
+    Default consignor is used if no consignor is provided.
+  -->
+  <consignor id="3311" />
+
+  <!--
+    Get the consignee ID from create-consignee.php or when searching for
+    consignees using http://wiki.edipost.no/display/api/Consignee+Search
+  -->
+  <consignee id="1504551" />
+
+  <items>
+    <item>
+      <weight>1.0</weight>
+      <height>0.0</height>
+      <length>0.0</length>
+      <width>0.0</width>
+    </item>
+    <item>
+      <weight>2.0</weight>
+      <height>0.0</height>
+      <length>0.0</length>
+      <width>0.0</width>
+    </item>
+  </items>
+
+  <!--
+    Get product and service ID from find-products.php
+  -->
+  <product id="8">
+    <services>
+      <service id="55">
+        <properties>
+          <property key="COD_AMOUNT" value="1230.00"/>
+          <property key="COD_REFERENCE" value="1234567890"/>
+        </properties>
+      </service>
+    </services>
+  </product>
+
+  <contentReference>Can contain any text</contentReference>
+
+</consignment>
